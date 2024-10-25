@@ -1,5 +1,5 @@
 """
-ASGI config for Bangladesh Railway project.
+ASGI config for Bangladesh_Railway project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Bangladesh_Railway.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Bangladesh_Railway.settings")
 
 application = get_asgi_application()
